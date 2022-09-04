@@ -35,7 +35,6 @@ def logger(func: Callable):
 
 
 def log_call(obj: Callable[..., Any]) -> Callable:
-    print(type(obj))
     if type(obj).__name__ == 'function':
         return logger(obj)
 
