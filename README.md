@@ -23,7 +23,9 @@ def c(a,*args,**kwargs):
 
 c(34,56,p=23)
 ```
+
+```
 response 
 2022-09-04 12:56:08,552 a called with {'args': [45, 'str'], 'kwargs': {'s': 34, 'g': 43}}
 2022-09-04 12:56:08,552 c called with {'a': 34, 'args': [56], 'kwargs': {'p': 23}}
-
+```
