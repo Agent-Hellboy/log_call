@@ -2,9 +2,13 @@
 
 library to log function or bond-method calls
 
+## Installation
+clone the repo and do `python -m pip install .`
 
 ### Example
 ```py
+from log_call import log_call
+
 @log_call
 class A:
     def __init__(self):
