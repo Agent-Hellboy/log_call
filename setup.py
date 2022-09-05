@@ -14,7 +14,7 @@ setup(
     author_email="princekrroshan01@gmail.com",
     url="https://github.com/Agent-Hellboy/log_call",
     description=("Library to log function or bond-method calls"),
-    long_description=read("README.md"),
+    long_description=read("README.rst"),
     license="MIT",
     package_dir={'': 'src'},
     packages=['log_call'],
