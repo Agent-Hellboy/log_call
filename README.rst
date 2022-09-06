@@ -7,7 +7,10 @@ library to log function or bond-method calls
 .. image:: https://img.shields.io/pypi/v/log_call
    :target: https://pypi.python.org/pypi/log_call/
 
-.. image:: https://github.com/Agent-Hellboy/log_call/actions/workflows/build.yml/badge.svg
+.. image:: https://github.com/Agent-Hellboy/log_call/actions/workflows/python-package.yml/badge.svg
+    :target: https://github.com/Agent-Hellboy/log_call/
+
+.. image:: https://github.com/Agent-Hellboy/log_call/actions/workflows/python-publish.yml/badge.svg
     :target: https://github.com/Agent-Hellboy/log_call/
 
 .. image:: https://img.shields.io/pypi/pyversions/log_call.svg
