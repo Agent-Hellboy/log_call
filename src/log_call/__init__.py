@@ -35,15 +35,16 @@ def logger(func: Callable):
 
 
 def log_call(obj: Callable[..., Any]) -> Callable:
-    if type(obj).__name__ == 'function':
+    if inspect.isfunction(obj):
         return logger(obj)
+        
+    if inspect.isclass(obj):
+        class Wrapper(obj):
+            def __init__(self, *args, **kwargs):
+                super().__init__(*args, **kwargs)
 
-    class Wrapper(obj):
-        def __init__(self, *args, **kwargs):
-            super().__init__(*args, **kwargs)
+            def __getattribute__(self, attr):
+                attr = object.__getattribute__(self, attr)
+                return logger(attr) if callable(attr) else attr
 
-        def __getattribute__(self, attr):
-            attr = object.__getattribute__(self, attr)
-            return logger(attr) if callable(attr) else attr
-
-    return Wrapper
+        return Wrapper

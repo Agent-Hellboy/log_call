@@ -11,6 +11,7 @@ def read(fname):
 setup(
     name="log_call",
     author="Prince Roshan",
+    version='0.1.0'
     author_email="princekrroshan01@gmail.com",
     url="https://github.com/Agent-Hellboy/log_call",
     description=("Library to log function or bond-method calls"),
