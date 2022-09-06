@@ -3,6 +3,28 @@ log_call
 
 library to log function or bond-method calls
 
+
+.. image:: https://img.shields.io/pypi/v/log_call
+   :target: https://pypi.python.org/pypi/log_call/
+
+.. image:: https://github.com/Agent-Hellboy/log_call/actions/workflows/build.yml/badge.svg
+    :target: https://github.com/Agent-Hellboy/log_call/
+
+.. image:: https://img.shields.io/pypi/pyversions/log_call.svg
+   :target: https://pypi.python.org/pypi/log_call/
+
+.. image:: https://img.shields.io/pypi/l/log_call.svg
+   :target: https://pypi.python.org/pypi/log_call/
+
+.. image:: https://pepy.tech/badge/log_call
+   :target: https://pepy.tech/project/log_call
+
+.. image:: https://img.shields.io/pypi/format/log_call.svg
+   :target: https://pypi.python.org/pypi/log_call/
+
+.. image:: https://coveralls.io/repos/github/Agent-Hellboy/log_call/badge.svg?branch=main
+   :target: https://coveralls.io/github/Agent-Hellboy/log_call?branch=main
+
 Installation
 ============
 
