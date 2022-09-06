@@ -31,7 +31,7 @@ def log_call_fixture():
     return fixture1,fixture2,fixture3,fixture4
 
 def test_with_fixture(log_call_fixture):
-    assert log_call_fixture[0].__module__ == 'test_log_call'
+    assert log_call_fixture[0].__module__ == 'tests.test_log_call'
     assert log_call_fixture[1].__dict__['__module__'] == 'log_call'
     assert log_call_fixture[2] is None
     assert log_call_fixture[3] is None 
